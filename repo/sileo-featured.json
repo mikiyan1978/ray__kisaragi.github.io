@@ -1,0 +1,13 @@
+{
+  "class": "FeaturedBannersView",
+  "itemSize": "{263, 148}",
+  "itemCornerRadius": 10,
+  "banners": [
+    {
+      "url": "https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/43/93/de/4393ded5-c419-3a29-2c88-6dd24b050e6d/source/512x512bb.jpg",
+      "title": "LINEhooker",
+      "package": "com.mikiyan1978.linehooker",
+      "hideShadow": false
+    },
+  ]
+}

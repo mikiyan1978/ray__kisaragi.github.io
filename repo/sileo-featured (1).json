@@ -1,0 +1,38 @@
+{
+  "class": "FeaturedBannersView",
+  "itemSize": "{263, 148}",
+  "itemCornerRadius": 10,
+  "banners": [
+    {
+      "url": "https://9to5mac.com/wp-content/uploads/sites/6/2019/08/guardian-firewall-vpn-ios-app.png?w=1600",
+      "title": "Guardian Firewall",
+      "package": "com.pxcex.guardianhack",
+      "hideShadow": false
+    },
+    {
+      "url": "https://www.unbox.id/wp-content/uploads/2018/02/Langganan-JOOX-VIP-Kini-Bisa-Lewat-Potong-Pulsa.jpg",
+      "title": "Joox VIP",
+      "package": "com.pxcex.jooxpremium",
+      "hideShadow": false
+    },
+    {
+      "url": "https://i1.wp.com/www.uk24.co/wp-content/uploads/2019/09/Schermata-2019-09-05-alle-15.48.59.jpg?fit=591%2C214&ssl=1",
+      "title": "Focos",
+      "package": "com.pxcex.focos",
+      "hideShadow": false
+    },
+      {
+         "url":"https://paxcex.github.io/depictions/com.pxcex.enlightpixaloophack/screenshots/1.PNG",
+         "title":"Enlight Pixaloop",
+         "package":"com.pxcex.enlightpixaloophack",
+         "hideShadow":false
+      },
+
+        {
+           "url":"https://o.aolcdn.com/images/dims?quality=85&image_uri=http%3A%2F%2Fo.aolcdn.com%2Fhss%2Fstorage%2Fmidas%2F1d8d1b4ae0e3095a29d2c8b59bb4f885%2F205752810%2FTwitterrific_macOS_logo.jpg&client=amp-blogside-v2&signature=75a9da2cb2c0c99f6cbedc372709b8fc9d765ce5",
+           "title":"Twitterrific 5",
+           "package":"com.pxcex.twitterrific5hack",
+           "hideShadow":false
+        },
+  ]
+}

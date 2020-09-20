@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
+
+<title>mikiyan1978's Repo</title>
+
+<link rel="icon" href="https://onuniverse-assets.imgix.net/755E8191-9A86-43E2-A71F-2E3CAB34FFF6.jpg?q=75&dpr=1.25" type="image/gif" sizes="16x16">
+<head>
+<style>
+
+
+
+</style>
+</head>
+
+<body style="background-color:#f2f2f2;">
+
+<br>
+
+    <center>
+        <h1 style="font-family:arial;font-size:20px;color:#ff0000;">mikiyan1978's Repo
+        </h1>
+    </center>
+
+<br>
+
+    <center>
+        <p style="font-family:arial;font-size:25px;color:#444444;">Cydiaリポジトリ専用ページ
+        </p>
+    </center>
+
+<br>
+
+    <center>
+        <a style="text-decoration:none;font-family:arial;font-size:15px;padding:10px;" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://mikiyan1978.github.io/repository/">
+            Add Cydia
+        </a>
+
+    </center>
+
+</body>
+</html>

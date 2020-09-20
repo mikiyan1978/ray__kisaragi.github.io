@@ -1,0 +1,135 @@
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <title>AutoBot Add Repo</title>
+
+<style>
+
+html, body {
+  height: 100%;
+}
+
+.wrap {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  min-width: 600px;
+  min-height: 120px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 44px;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+  font-weight: 700;
+  color: #313133;
+  background: #4FD1C5;
+background: linear-gradient(90deg, rgba(129,230,217,1) 0%, rgba(79,209,197,1) 100%);
+  border: none;
+  border-radius: 2000px;
+  box-shadow: 24px 24px 48px rgba(79,209,197,.64);
+  transition: all 0.3s ease-in-out 0s;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  padding: 20px;
+  }
+
+button::before {
+content: '';
+  border-radius: 2000px;
+  min-width: calc(600px + 24px);
+  min-height: calc(120px + 24px);
+  border: 12px solid #00FFCB;
+  box-shadow: 0 0 120px rgba(0,255,203,.64);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: all .3s ease-in-out 0s;
+}
+
+.button:hover, .button:focus {
+  color: #313133;
+  transform: translateY(-12px);
+}
+
+button:hover::before, button:focus::before {
+  opacity: 1;
+}
+
+button::after {
+  content: '';
+  width: 60px; height: 60px;
+  border-radius: 100%;
+  border: 10px solid #00FFCB;
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: ring 1.5s infinite;
+}
+
+button:hover::after, button:focus::after {
+  animation: none;
+  display: none;
+}
+
+@keyframes ring {
+  0% {
+    width: 60px;
+    height: 60px;
+    opacity: 1;
+  }
+  100% {
+    width: 600px;
+    height: 600px;
+    opacity: 0;
+  }
+}
+
+
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	-webkit-animation: gradient 15s ease infinite;
+	        animation: gradient 15s ease infinite;
+}
+
+@-webkit-keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+</style>
+</head>
+
+<body>
+
+<div class="wrap">
+  <button class="button" onclick="window.location.href='cydia://url/https://cydia.saurik.com/api/share#?source=https://mikiyan1978.github.io/repository/'">Add Repo</button>
+</div>
+
+
+</body></html>
